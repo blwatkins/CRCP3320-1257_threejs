@@ -1,0 +1,29 @@
+{
+  "name": "crcp3320-1257_threejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Three.js example for CRCP 3320; Fall 2025 term.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blwatkins/CRCP3320-1257_threejs.git"
+  },
+  "keywords": [],
+  "author": "brittni watkins",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.4",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
