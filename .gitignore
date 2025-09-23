@@ -1,0 +1,10 @@
+*.DS_Store
+
+# dependencies
+node_modules/
+
+# JetBrains IDEs
+.idea/
+
+# webpack
+_dist/
